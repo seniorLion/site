@@ -1,0 +1,174 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: 85px;
+    background-image: linear-gradient(to right, #1600FB, #4A3DEE, #C0C9D1);
+    background-image: linear-gradient(to right, #5045C1, #5F12C1, #C0C9D1);
+    margin-bottom: 46px;
+}
+
+.header {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 1920px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+}
+
+.logo {
+    margin: 6px 0 9px 83px;
+}
+
+.menu {
+    margin: 33px 0 32px 500px;
+}
+
+.menu__list {
+    display: flex;
+    gap: 27px;
+}
+.menu__item {
+    text-transform: uppercase;
+}
+
+main {
+    max-width: 100%;
+    height: 1005px;
+    background-image: url(/images/main-image.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.main__number,
+.main__text {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+}
+
+.main__number {
+    font-size: 350px;
+    padding: 51px 0 0 166px; 
+    color: #5045C1;
+}
+
+.main__text {
+    font-size: 160px;
+    padding: 42px 166px 0 166px;
+}
+
+.main__description {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    width: 805px;
+    height: 138px;
+    text-align: center;
+    margin: 61px auto;
+}
+
+.waves {
+    max-width: 100%;
+    height: 93px;
+    background-image: url(/images/wave-bg.jpeg);
+    background-repeat: no-repeat;
+}
+.wave-img {
+    position: absolute;
+    padding-top: 26px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    max-width: 1920px;
+    height: 252px;
+    line-height: 1.2;
+    background-image: linear-gradient(to right, #5045C1, #5F12C1, #C0C9D1);
+}
+
+.footer__company {
+    width: 220px;
+}
+
+.footer__item-logo {
+    margin-left: 120px
+}
+
+.footer__img {
+    margin-top: 28px;
+}
+
+.footer__text-logo {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 17px;
+}
+
+.footer__copyright-logo {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #B5AEAE;
+    margin-top: 57px;
+}
+
+.footer__company {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 300px;
+}
+.footer__company-about {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.footer__company-text {
+    margin-bottom: 20px;
+}
+
+.projects__text {
+    margin-left: 50px;
+}
+
+
+
